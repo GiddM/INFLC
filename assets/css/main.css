@@ -26,7 +26,7 @@
 		line-height: 1;
 	}
 
-	ol, ul {
+	ol, ul, li {
 		list-style: none;
 	}
 
@@ -1653,7 +1653,9 @@
 		letter-spacing: 0.025em;
 		line-height: 1.65;
 	}
-
+header.getstart {
+    padding-left: 34em;
+}
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
@@ -1721,6 +1723,7 @@
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 			border-bottom: 0;
+          text-align: center;
 		}
 
 	h1 {
@@ -1843,6 +1846,7 @@ img.inflclogo {
 		width: -ms-max-content;
 		width: max-content;
 		margin-bottom: 2em;
+        padding-left: 3em;
 	}
 
 		header.major > :first-child {
